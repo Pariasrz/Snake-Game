@@ -65,7 +65,7 @@ apple = img2.get_rect()
 apple.x = random.randint(75, 580)
 apple.y =  random.randint(75, 580)
 
-#poisen
+#poison
 img3 = pygame.image.load("poison.png")
 img3 = pygame.transform.scale(img3, (30,30))
 poison = img3.get_rect()
